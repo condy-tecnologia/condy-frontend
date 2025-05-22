@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 40" width="120" height="40">
+  <style>
+    .text { font-family: Arial, sans-serif; font-weight: bold; }
+    .cube { fill: #304FFE; }
+    .text-condy { fill: #333; }
+  </style>
+  
+  <!-- Cubo 3D simplificado -->
+  <g class="cube">
+    <path d="M30 10L40 15V25L30 30L20 25V15L30 10Z" />
+    <path d="M30 10L40 15L30 20L20 15L30 10Z" fill="#4c6bff" />
+    <path d="M40 15V25L30 30V20L40 15Z" fill="#1f3bcc" />
+    <path d="M20 15V25L30 30V20L20 15Z" fill="#0f1e66" />
+  </g>
+  
+  <!-- Texto "Condy" -->
+  <text x="50" y="27" class="text text-condy" font-size="22">Condy</text>
+</svg> 
